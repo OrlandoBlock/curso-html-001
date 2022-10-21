@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="radio" name="tipodeproducto" id="o1" value="1" checked >
+<label for="o1">Opcion1</label>
+<input type="radio" name="tipodeproducto" id="o2" value="2" >
+<label for="o2">Opcion2</label>
+<input type="radio" name="tipodeproducto" id="o3" value="3”>
+<label for="o3">Opcion3</label>
+<input type="radio" name="tipodeproducto" id="o4" value="4" >
+<label for="o4">Opcion4</label>
+<input type="radio" name="tipodeproducto" id="o5" value="5" >
+<label for="o5">opcion5</label>
+<input type="password" name="password" id="password" />
+<label for="upload">Subir ficheros</label>
+    <input type="file" name="archivo" id="upload" />
+    <input type="date"  name="fecha" id="fecha" /><br>
+
+
+    <form action="pagina.aspx" method="post">
+        <label for="codigo">Codigo</label>
+        <input type="text" id="codigo“ name=“c1”>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre“ name=“c2”>
+        <input type="submit" value="Enviar">
+     </form><br>
+
+     <form action="pagina.aspx" method="post">
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars" size="4" multiple>
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+        <input type="submit" value="Enviar"><br>
+
+    </form><br>
+    <form method="get">
+        <label for="message">Choose a car:</label>
+        <textarea name="message" id="message" rows="10" cols="30"></textarea>
+        <input type="submit" value="Enviar">
+    </form><br>
+    <fieldset>
+        <legend>Datos personales:</legend>
+        <label for="fname">Nombre:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Apellidos:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Enviar">
+</fieldset><br>
+
+
+ 
+ 
+     
+</body>
+</html>
